@@ -20,7 +20,6 @@ function App() {
       <About />
       <Services />
       <CEO />
-      <NewCEO />
       <Contact />
       <Footer />
     </div>
