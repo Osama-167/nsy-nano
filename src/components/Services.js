@@ -81,7 +81,7 @@ const Services = () => {
             />
             <ServiceItem
               id="service-6"
-              title="Solar Systems"
+              title="solar energy"
               img={solar}
               fullText="We specialize in providing sustainable energy solutions through advanced solar systems. Our offerings include both on-grid and off-grid solutions, designed to reduce reliance on external energy sources while enhancing energy security. With minimal maintenance requirements and a lifespan of up to 25 years, our solar systems ensure reliable, continuous energy production. By producing electricity with little to no operational costs, we help clients achieve significant long-term energy savings."
               moreContent="Expanded information about solar systems and how they provide energy."
