@@ -9,7 +9,6 @@ import './App.css'
 import Footer from './components/Footer'
 import About from './components/About'
 import CEO from './components/CEO'
-import NewCEO from './components/NewCEO'
 import Services from './components/Services'
 
 function App() {
