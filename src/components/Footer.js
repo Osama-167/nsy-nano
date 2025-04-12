@@ -2,6 +2,7 @@ import React from 'react'
 import { Facebook, Twitter, Youtube, Instagram } from '../assets/icons'
 import { FaEnvelope, FaWhatsapp } from 'react-icons/fa'
 import logo from '../assets/logo.png'
+import { Link } from 'react-scroll'
 
 const Footer = () => {
   return (
@@ -17,11 +18,54 @@ const Footer = () => {
 
         <div className="services-footer">
           <h3>SERVICES</h3>
-          <p>Development</p>
-          <p>Technical Support</p>
-          <p>Training and Courses</p>
-          <p>Solar Systems</p>
-          <p>UPS</p>
+          <Link
+            to="development"
+            smooth={true}
+            duration={500}
+            style={{ textDecoration: 'none', color: 'inherit' }}
+          >
+            <p>Development</p>
+          </Link>
+          <Link
+            to="support"
+            smooth={true}
+            duration={500}
+            style={{ textDecoration: 'none', color: 'inherit' }}
+          >
+            <p>Technical Support</p>
+          </Link>
+          <Link
+            to="training"
+            smooth={true}
+            duration={500}
+            style={{ textDecoration: 'none', color: 'inherit' }}
+          >
+            <p>Training and Courses</p>
+          </Link>
+          <Link
+            to="solar-energy"
+            smooth={true}
+            duration={500}
+            style={{ textDecoration: 'none', color: 'inherit' }}
+          >
+            <p>Solar energy</p>
+          </Link>
+          <Link
+            to="ups"
+            smooth={true}
+            duration={500}
+            style={{ textDecoration: 'none', color: 'inherit' }}
+          >
+            <p>UPS system</p>
+          </Link>
+          <Link
+            to="cubesat"
+            smooth={true}
+            duration={500}
+            style={{ textDecoration: 'none', color: 'inherit' }}
+          >
+            <p>CubeSat Structure</p>
+          </Link>
         </div>
 
         <div className="contact">
@@ -61,7 +105,7 @@ const Footer = () => {
 
       <p className="copy-right">© 2025 AMG-TECH. All rights reserved.</p>
     </footer>
-  )
+  );
 }
 
-export default Footer
+export default Footer;
