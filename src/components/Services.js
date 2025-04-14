@@ -45,9 +45,15 @@ const Services = () => {
           <h1>Our Services</h1>
           <p className="caption">Check out our amazing services.</p>
           <div className="services-container">
+          <ServiceItem
+              id="cubesat"
+              title="CubeSat Structure"
+              img={cubesatkit}
+              fullText="We design and manufacture high-quality CubeSat structures using premium materials such as aluminum alloys (Al-6061 and Al-7075) and carbon fiber composites. Our modular designs support various configurations like 1U, 2U, and 3U to meet diverse mission needs. We provide end-to-end support including development, customization, and technical guidance to ensure successful implementation."
+            />
             <ServiceItem
               id="development"
-              title="Development and Manufacturing of EPS "
+              title="Development and Manufacturing of EPS"
               img={eps}
               fullText="At Nano Satellite Yard, we specialize in the development and production of CubeSat structures, Electrical Power Supply (EPS) systems, and related components."
             />
@@ -87,12 +93,7 @@ const Services = () => {
               img={ups}
               fullText="Our UPS systems are designed to protect sensitive electronic devices from power defects and disruptions. For Critical Services: In hospitals and data centers, UPS systems ensure that essential operations remain online during power outages, safeguarding critical services. For Industrial and Business Use: UPS systems provide a reliable power supply, keeping operations running smoothly and preventing costly disruptions."
             />
-            <ServiceItem
-              id="cubesat"
-              title="CubeSat Structure"
-              img={cubesatkit}
-              fullText="We design and manufacture high-quality CubeSat structures using premium materials such as aluminum alloys (Al-6061 and Al-7075) and carbon fiber composites. Our modular designs support various configurations like 1U, 2U, and 3U to meet diverse mission needs. We provide end-to-end support including development, customization, and technical guidance to ensure successful implementation."
-            />
+
           </div>
         </div>
       </div>
