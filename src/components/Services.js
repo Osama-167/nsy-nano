@@ -47,7 +47,7 @@ const Services = () => {
           <div className="services-container">
             <ServiceItem
               id="development"
-              title="Development and Manufacturing of EPS and Structures"
+              title="Development and Manufacturing of EPS "
               img={eps}
               fullText="At Nano Satellite Yard, we specialize in the development and production of CubeSat structures, Electrical Power Supply (EPS) systems, and related components."
             />
