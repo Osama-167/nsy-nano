@@ -5,8 +5,8 @@ import solar from '../assets/solarSystem.webp';
 import components from '../assets/components.jpg';
 import support from '../assets/Support.jpg';
 import support2 from '../assets/Support2.jpg';
-import ups from '../assets/ups.webp';
-import eps from '../assets/eps.webp';
+import ups from '../assets/ups.jpg';
+import eps from '../assets/eps.jpg';
 import training from '../assets/training.webp';
 import cubesatkit from '../assets/cubesatkit.png';
 
@@ -49,7 +49,7 @@ const Services = () => {
               id="development"
               title="Development and Manufacturing of EPS and Structures"
               img={eps}
-              fullText="At Nano Satellite Yard, we specialize in the development and production of CubeSat structures, Electrical Power Supply (EPS) systems, and related components. Our offerings include structures crafted from premium materials such as aluminum alloys (Al-7075 and Al-6061) and carbon fiber composite materials, ensuring strength, durability, and adaptability for diverse applications. In addition to manufacturing, we provide expert-led training on these critical subsystems, empowering engineers and innovators to design, build, and implement cutting-edge CubeSat technology."
+              fullText="At Nano Satellite Yard, we specialize in the development and production of CubeSat structures, Electrical Power Supply (EPS) systems, and related components."
             />
             <ServiceItem
               id="components"
