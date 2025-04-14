@@ -3,7 +3,8 @@ import DrAhmad from "../assets/DrAhmad.jpg";
 import KareemAhmed from "../assets/KareemAhmed.jpg";
 import AhmedSanad from "../assets/AhmedSanad.jpg";
 import RadyHesham from "../assets/RadyHesham.jpg";
-import AlaaAshraf from "../assets/AlaaAshraf.jpg";  
+import AlaaAshraf from "../assets/AlaaAshraf.jpg";
+import Nadeen from "../assets/nadeen.jpg";
 
 const teamData = {
   CEO: [
@@ -78,6 +79,23 @@ const teamData = {
       
       Driven by curiosity and growth, Kareem strives to make a lasting impact through innovation and collaboration, 
       uniting diverse disciplines to achieve meaningful progress.`,
+    },
+  ],
+  "System planning and management": [
+    {
+      name: "Nadeen Ahmad",
+      title: "System Planning & Management Specialist",
+      image: Nadeen,
+      description: `Nadeen Ahmad is a skilled professional in system planning and management with a strong background 
+      in optimizing operational processes and implementing efficient management strategies. 
+      At Nano Satellite Yard, she plays a crucial role in project coordination and resource management.
+      
+      With expertise in workflow optimization and team coordination, Nadeen ensures smooth project execution 
+      and effective communication between different departments. Her analytical skills and attention to detail 
+      contribute significantly to the company's operational efficiency.
+      
+      Nadeen holds a degree in Business Administration with a focus on Operations Management 
+      and has participated in several leadership development programs.`,
     },
   ],
 };
